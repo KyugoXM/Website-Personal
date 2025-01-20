@@ -1,0 +1,20 @@
+/* Tambahkan gaya untuk keranjang */
+.cart-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+}

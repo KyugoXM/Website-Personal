@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu Makanan</title>
+</head>
+<body>
+    <div class="menu-container">
+        <h2>Menu Makanan</h2>
+        <div class="cart-icon" onclick="toggleCart()">
+            🛒
+            <span class="cart-count" id="cartCount">0</span>
+        </div>
+        <div id="menu">
+            <div class="item">
+                <h3>Nasi Goreng</h3>
+                <button onclick="addToCart('Nasi Goreng')">Tambah ke Keranjang</button>
+            </div>
+            <div class="item">
+                <h3>Ayam Penyet</h3>
+                <button onclick="addToCart('Ayam Penyet')">Tambah ke Keranjang</button>
+            </div>
+            <div class="item">
+                <h3>Rendang</h3>
+                <button onclick="addToCart('Rendang')">Tambah ke Keranjang</button>
+            </div>
+            <div class="item">
+                <h3>Sate Ayam</h3>
+                <button onclick="addToCart('Sate Ayam')">Tambah ke Keranjang</button>
+            </div>
+            <div class="item">
+                <h3>Gado-Gado</h3>
+                <button onclick="addToCart('Gado-Gado')">Tambah ke Keranjang</button>
+            </div>
+        </div>
+        <h3>Keranjang</h3>
+        <ul id="cart" style="display: none;"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
